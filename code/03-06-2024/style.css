@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img#image_profile{
+   border-radius: 50%;
+   max-width: 40%;
+   height: auto;
+}
+
+ul#nav{
+    list-style-type: none;
+}
+ul#nav>li{
+    display: inline;
+}
