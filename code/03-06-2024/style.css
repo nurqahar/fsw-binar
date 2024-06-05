@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div#wrapper {
+  /*
+    https://www.w3schools.com/howto/howto_css_center_website.asp
+    Use a container element and set a specific max-width. 
+    A common width many websites use is 960px. 
+    To actually center the page, add margin: auto.
+
+    The following example will center 
+    the website on screens that are wider than 500px. 
+    On screens that are less than 500px wide, 
+    it will span the whole of the page:
+    */
+  max-width: 500px;
+  margin: auto;
+}
+
+div.border_1 {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+img#image_profile {
+  border-radius: 50%;
+  max-width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+ul#nav {
+  list-style-type: none;
+  align-items: center;
+}
+ul#nav > li {
+  display: inline;
+}
