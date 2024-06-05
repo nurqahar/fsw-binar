@@ -1,0 +1,2334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .some-page-wrapper {
+        margin: 15px;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+      }
+
+      .double-column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 2;
+      }
+
+      .blue-column {
+        /* height: 100px; */
+        /* background-color: blue; */
+      }
+
+      .green-column {
+        /* height: 100px; */
+        /* background-color: green; */
+      }
+    </style>
+  </head>
+  <body>
+    <div style="box-sizing: border-box">
+      <div
+        style="
+          gap: 1px;
+          flex-flow: row nowrap;
+          place-content: flex-start space-between;
+          align-items: center;
+          max-width: 1110px;
+          height: 72px;
+          display: flex;
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          box-sizing: border-box;
+          padding: 5%;
+        "
+      >
+        <a
+          href="http://binaracademy.com"
+          style="
+            color: rgb(147, 51, 147);
+            text-decoration: underline solid rgb(147, 51, 147);
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+          "
+          ><img
+            src="https://cdn.prod.website-files.com/62fdaf934899cf5b43a00e1a/63044fb2037ff41cbd6efdcc_logo_binar_purple.svg"
+            loading="lazy"
+            alt=""
+            style="
+              height: 34px;
+              vertical-align: middle;
+              max-width: 100%;
+              display: inline-block;
+              box-sizing: border-box;
+              border: 0px none rgb(147, 51, 147);
+            "
+        /></a>
+        <div
+          style="
+            gap: 24px;
+            flex: 1 1 0%;
+            justify-content: flex-end;
+            align-items: center;
+            margin-left: 0px;
+            display: flex;
+            box-sizing: border-box;
+          "
+        >
+          <div
+            style="
+              gap: 8px;
+              color: rgb(147, 51, 147);
+              cursor: pointer;
+              font-family: 'Causten semi', sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 24px;
+              text-decoration: none solid rgb(147, 51, 147);
+              display: flex;
+              box-sizing: border-box;
+            "
+          >
+            <div style="box-sizing: border-box">Program BINAR</div>
+            <img
+              src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/6657e77666c3911eee1a9084_down.svg"
+              loading="lazy"
+              alt=""
+              style="
+                transform: rotateZ(0deg);
+                width: 20px;
+                height: 20px;
+                margin-right: 0px;
+                transition: transform 0.2s ease 0s;
+                position: static;
+                vertical-align: middle;
+                max-width: 100%;
+                display: block;
+                box-sizing: border-box;
+                border: 0px none rgb(147, 51, 147);
+              "
+            />
+          </div>
+          <div
+            style="
+              gap: 8px;
+              color: rgb(147, 51, 147);
+              cursor: pointer;
+              font-family: 'Causten semi', sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 24px;
+              text-decoration: none solid rgb(147, 51, 147);
+              display: flex;
+              box-sizing: border-box;
+            "
+          >
+            <div style="box-sizing: border-box">
+              BINAR&nbsp;for&nbsp;Business
+            </div>
+            <img
+              src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/6657e77666c3911eee1a9084_down.svg"
+              loading="lazy"
+              alt=""
+              style="
+                transform: rotateZ(0deg);
+                width: 20px;
+                height: 20px;
+                margin-right: 0px;
+                transition: transform 0.2s ease 0s;
+                position: static;
+                vertical-align: middle;
+                max-width: 100%;
+                display: block;
+                box-sizing: border-box;
+                border: 0px none rgb(147, 51, 147);
+              "
+            />
+          </div>
+          <a
+            href="https://business.binaracademy.com/job-connect"
+            style="
+              gap: 8px;
+              color: rgb(147, 51, 147);
+              cursor: pointer;
+              font-family: 'Causten semi', sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 24px;
+              text-decoration: none solid rgb(147, 51, 147);
+              display: flex;
+              max-width: 100%;
+              box-sizing: border-box;
+              background-color: rgba(0, 0, 0, 0);
+            "
+          >
+            <div style="box-sizing: border-box">Job Connect</div> </a
+          ><a
+            href="https://www.binaracademy.com/blog"
+            style="
+              gap: 8px;
+              color: rgb(147, 51, 147);
+              cursor: pointer;
+              font-family: 'Causten semi', sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 24px;
+              text-decoration: none solid rgb(147, 51, 147);
+              display: flex;
+              max-width: 100%;
+              box-sizing: border-box;
+              background-color: rgba(0, 0, 0, 0);
+            "
+          >
+            <div style="box-sizing: border-box">Literasi</div>
+          </a>
+          <div
+            style="
+              gap: 8px;
+              color: rgb(147, 51, 147);
+              cursor: pointer;
+              font-family: 'Causten semi', sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 24px;
+              text-decoration: none solid rgb(147, 51, 147);
+              display: flex;
+              position: relative;
+              box-sizing: border-box;
+            "
+          >
+            <div style="box-sizing: border-box">Tentang Binar</div>
+            <img
+              src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/6657e77666c3911eee1a9084_down.svg"
+              loading="lazy"
+              alt=""
+              style="
+                transform: rotateZ(0deg);
+                width: 20px;
+                height: 20px;
+                margin-right: 0px;
+                transition: transform 0.2s ease 0s;
+                position: static;
+                vertical-align: middle;
+                max-width: 100%;
+                display: block;
+                box-sizing: border-box;
+                border: 0px none rgb(147, 51, 147);
+              "
+            />
+            <div
+              style="
+                display: none;
+                background-color: rgb(255, 255, 255);
+                border-radius: 8px;
+                width: 161px;
+                position: absolute;
+                top: 30px;
+                right: 0px;
+                box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+                box-sizing: border-box;
+              "
+            >
+              <a
+                href="https://www.binaracademy.com/id/about"
+                style="
+                  gap: 8px;
+                  color: rgb(147, 51, 147);
+                  cursor: pointer;
+                  justify-content: center;
+                  padding: 13px 24px;
+                  font-family: 'Causten semi', sans-serif;
+                  font-size: 16px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  text-decoration: none solid rgb(147, 51, 147);
+                  display: block;
+                  max-width: 100%;
+                  box-sizing: border-box;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+              >
+                <div style="box-sizing: border-box">Tentang Kami</div> </a
+              ><a
+                href="https://www.binaracademy.com/promo"
+                style="
+                  gap: 8px;
+                  color: rgb(147, 51, 147);
+                  cursor: pointer;
+                  justify-content: center;
+                  padding: 13px 24px;
+                  font-family: 'Causten semi', sans-serif;
+                  font-size: 16px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  text-decoration: none solid rgb(147, 51, 147);
+                  display: block;
+                  max-width: 100%;
+                  box-sizing: border-box;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+              >
+                <div style="box-sizing: border-box">Promo &amp; Diskon</div>
+              </a>
+            </div>
+          </div>
+          <div
+            style="
+              cursor: pointer;
+              justify-content: center;
+              align-items: center;
+              display: flex;
+              position: relative;
+              box-sizing: border-box;
+            "
+          >
+            <a
+              href="http://lms.binaracademy.com"
+              style="
+                letter-spacing: normal;
+                text-indent: 0px;
+                background-color: rgb(147, 51, 147);
+                border-radius: 8px;
+                height: auto;
+                padding: 13px 24px;
+                font-family: Causten, sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 22px;
+                color: rgb(255, 255, 255);
+                text-decoration: none solid rgb(255, 255, 255);
+                cursor: pointer;
+                border: 0px none rgb(255, 255, 255);
+                display: block;
+                box-sizing: border-box;
+              "
+              >My Learning</a
+            >
+            <div
+              style="
+                visibility: hidden;
+                opacity: 0;
+                transition: visibility 0.3s ease 0s, opacity 0.3s ease-out 0s;
+                cursor: default;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(224, 224, 224);
+                border-radius: 8px;
+                padding: 12px 16px;
+                position: absolute;
+                bottom: -50px;
+                right: -5px;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 5px;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  gap: 2px;
+                  flex-flow: column nowrap;
+                  width: 200px;
+                  display: flex;
+                  box-sizing: border-box;
+                "
+              >
+                <div
+                  style="
+                    color: rgb(18, 18, 18);
+                    font-size: 12px;
+                    line-height: 14px;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                  "
+                >
+                  Free Learning Access for New Student
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            display: none;
+            padding-top: 0px;
+            transform: none;
+            z-index: 2;
+            background-color: rgb(255, 255, 255);
+            width: 637px;
+            font-size: 16px;
+            position: absolute;
+            top: 72px;
+            left: 50%;
+            box-sizing: border-box;
+          "
+        >
+          <div
+            style="
+              width: 275px;
+              padding-top: 1px;
+              padding-left: 1px;
+              box-sizing: border-box;
+            "
+          >
+            <div
+              style="
+                color: rgb(119, 40, 125);
+                cursor: pointer;
+                background-color: rgb(255, 255, 255);
+                border-top-left-radius: 8px;
+                font-weight: 700;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 16px;
+                display: flex;
+                position: static;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  box-sizing: border-box;
+                "
+              >
+                BINAR BOOTCAMP
+              </div>
+              <img
+                src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/66273442333324e69bf2a246_right.svg"
+                loading="lazy"
+                alt=""
+                style="
+                  display: block;
+                  width: 24px;
+                  height: 24px;
+                  vertical-align: middle;
+                  max-width: 100%;
+                  box-sizing: border-box;
+                  border: 0px none rgb(119, 40, 125);
+                "
+              />
+              <div
+                style="
+                  color: rgb(18, 18, 18);
+                  border: 1px solid rgb(237, 237, 237);
+                  font-weight: 400;
+                  display: block;
+                  z-index: -1;
+                  cursor: default;
+                  background-color: rgb(245, 245, 245);
+                  border-radius: 8px;
+                  width: 637px;
+                  min-height: 336px;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
+                  padding-left: 274px;
+                  position: absolute;
+                  top: 0px;
+                  left: 0px;
+                  box-sizing: border-box;
+                "
+              >
+                <div
+                  style="
+                    background-color: rgb(255, 255, 255);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    min-height: 336px;
+                    margin-top: 0px;
+                    padding: 16px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div
+                    style="
+                      border-bottom: 1px solid rgb(224, 224, 224);
+                      padding-bottom: 16px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <div
+                      style="
+                        gap: 8px;
+                        justify-content: flex-start;
+                        align-items: center;
+                        display: flex;
+                        box-sizing: border-box;
+                      "
+                    >
+                      <img
+                        src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/63969c9f76a0d2f15f7468f0_Logo_b2c_logo-1.png"
+                        loading="lazy"
+                        alt=""
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(18, 18, 18);
+                        "
+                      />
+                      <div style="font-weight: 700; box-sizing: border-box">
+                        BINAR BOOTCAMP<br style="box-sizing: border-box" />
+                      </div>
+                    </div>
+                    <div style="margin-top: 8px; box-sizing: border-box">
+                      <div style="box-sizing: border-box">
+                        Belajar intensif bersertifikat bareng praktisi expert
+                        selama 2-6 bulan.
+                      </div>
+                    </div>
+                    <a
+                      href="https://product.binaracademy.com/binar-bootcamp"
+                      style="
+                        width: 100%;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                    >
+                      <div
+                        style="
+                          color: rgb(147, 51, 147);
+                          font-weight: 600;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Pelajari Lebih Lanjut
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    style="
+                      gap: 16px;
+                      flex-flow: column nowrap;
+                      margin-top: 16px;
+                      padding-bottom: 16px;
+                      display: flex;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <div
+                      style="
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 18px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      COURSE BOOTCAMP
+                    </div>
+                    <a
+                      href="https://product.binaracademy.com/binar-bootcamp/business-intelligence"
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      >Business Intelligence Bootcamp</a
+                    ><a
+                      href="https://product.binaracademy.com/binar-bootcamp/product-management"
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      >Product Management Bootcamp</a
+                    ><a
+                      href="https://product.binaracademy.com/binar-bootcamp/back-end-engineering"
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      >Back End Engineer Bootcamp</a
+                    ><a
+                      href="https://product.binaracademy.com/binar-bootcamp/quality-assurance"
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      >Quality Assurance Bootcamp</a
+                    ><a
+                      href="https://product.binaracademy.com/binar-bootcamp/ui-ux-reseach-design"
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      >UI/UX Research &amp; Design Bootcamp</a
+                    ><a
+                      href="https://product.binaracademy.com/binar-bootcamp/full-stack-website-development"
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      >Full Stack Website Bootcamp</a
+                    ><a
+                      href="https://product.binaracademy.com/binar-bootcamp/front-end-engineering-bootcamp"
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      >Front End Engineering Bootcamp</a
+                    ><a
+                      href="https://product.binaracademy.com/binar-bootcamp/data-science-bootcamp"
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      >Data Science Bootcamp</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                cursor: pointer;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 16px;
+                display: flex;
+                position: static;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  box-sizing: border-box;
+                "
+              >
+                BINAR INSIGHT
+              </div>
+              <img
+                src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/66273442333324e69bf2a246_right.svg"
+                loading="lazy"
+                alt=""
+                style="
+                  width: 24px;
+                  height: 24px;
+                  display: none;
+                  vertical-align: middle;
+                  max-width: 100%;
+                  box-sizing: border-box;
+                  border: 0px none rgb(18, 18, 18);
+                "
+              />
+              <div
+                style="
+                  z-index: -1;
+                  cursor: default;
+                  background-color: rgb(245, 245, 245);
+                  border: 1px solid rgb(237, 237, 237);
+                  border-radius: 8px;
+                  width: 637px;
+                  min-height: 336px;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
+                  padding-left: 274px;
+                  display: none;
+                  position: absolute;
+                  top: 0px;
+                  left: 0px;
+                  box-sizing: border-box;
+                "
+              >
+                <div
+                  style="
+                    background-color: rgb(255, 255, 255);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    min-height: 336px;
+                    margin-top: 0px;
+                    padding: 16px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div
+                    style="
+                      border-bottom: 1px solid rgb(224, 224, 224);
+                      padding-bottom: 16px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <div
+                      style="
+                        gap: 8px;
+                        justify-content: flex-start;
+                        align-items: center;
+                        display: flex;
+                        box-sizing: border-box;
+                      "
+                    >
+                      <img
+                        src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/63969c9f76a0d205f17468f2_Logo_b2c_logo.png"
+                        loading="lazy"
+                        alt=""
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(18, 18, 18);
+                        "
+                      />
+                      <div style="font-weight: 700; box-sizing: border-box">
+                        BINAR INSIGHT
+                      </div>
+                    </div>
+                    <div style="margin-top: 8px; box-sizing: border-box">
+                      <div style="box-sizing: border-box">
+                        Belajar beragam topik digital terkini lewat webinar
+                        online.
+                      </div>
+                    </div>
+                    <a
+                      href="https://product.binaracademy.com/binar-insight"
+                      style="
+                        width: 100%;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                    >
+                      <div
+                        style="
+                          color: rgb(147, 51, 147);
+                          font-weight: 600;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Lihat Event
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                cursor: pointer;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 16px;
+                display: flex;
+                position: static;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  box-sizing: border-box;
+                "
+              >
+                BINAR GO
+              </div>
+              <img
+                src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/66273442333324e69bf2a246_right.svg"
+                loading="lazy"
+                alt=""
+                style="
+                  width: 24px;
+                  height: 24px;
+                  display: none;
+                  vertical-align: middle;
+                  max-width: 100%;
+                  box-sizing: border-box;
+                  border: 0px none rgb(18, 18, 18);
+                "
+              />
+              <div
+                style="
+                  z-index: -1;
+                  cursor: default;
+                  background-color: rgb(245, 245, 245);
+                  border: 1px solid rgb(237, 237, 237);
+                  border-radius: 8px;
+                  width: 637px;
+                  min-height: 336px;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
+                  padding-left: 274px;
+                  display: none;
+                  position: absolute;
+                  top: 0px;
+                  left: 0px;
+                  box-sizing: border-box;
+                "
+              >
+                <div
+                  style="
+                    background-color: rgb(255, 255, 255);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    min-height: 336px;
+                    margin-top: 0px;
+                    padding: 16px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div
+                    style="
+                      border-bottom: 1px solid rgb(224, 224, 224);
+                      padding-bottom: 16px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <div
+                      style="
+                        gap: 8px;
+                        justify-content: flex-start;
+                        align-items: center;
+                        display: flex;
+                        box-sizing: border-box;
+                      "
+                    >
+                      <img
+                        src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/63969c9f76a0d22fca7468ee_Group%2011898_b2c_logo.png"
+                        loading="lazy"
+                        alt=""
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(18, 18, 18);
+                        "
+                      />
+                      <div style="font-weight: 700; box-sizing: border-box">
+                        BINAR GO
+                      </div>
+                    </div>
+                    <div style="margin-top: 8px; box-sizing: border-box">
+                      <div style="box-sizing: border-box">
+                        Belajar mandiri melalui video bercerita, kuis, dan
+                        materi bacaan.
+                      </div>
+                    </div>
+                    <a
+                      href="https://product.binaracademy.com/binargo"
+                      style="
+                        width: 100%;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                    >
+                      <div
+                        style="
+                          color: rgb(147, 51, 147);
+                          font-weight: 600;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Pelajari Lebih Lanjut
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 16px; box-sizing: border-box">
+              <div
+                style="
+                  gap: 12px;
+                  background-color: rgb(255, 255, 255);
+                  border-radius: 8px;
+                  flex-flow: column nowrap;
+                  align-items: flex-start;
+                  padding: 12px;
+                  display: flex;
+                  box-sizing: border-box;
+                "
+              >
+                <div
+                  style="
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    width: 100%;
+                    display: flex;
+                    box-sizing: border-box;
+                  "
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/6657e77666c3911eee1a909e_Logo%20Cerficate.svg"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      margin-left: -8px;
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(18, 18, 18);
+                    "
+                  />
+                  <div
+                    style="
+                      background-color: rgb(0, 157, 177);
+                      border-radius: 9999px;
+                      justify-content: center;
+                      align-items: center;
+                      padding: 1px 4px;
+                      display: flex;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <div
+                      style="
+                        color: rgb(255, 255, 255);
+                        font-size: 10px;
+                        font-weight: 700;
+                        line-height: 14px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      NEW
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style="
+                    gap: 4px;
+                    flex-flow: column nowrap;
+                    margin-top: -14px;
+                    display: flex;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div
+                    style="
+                      font-size: 14px;
+                      line-height: 18px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Yakinkan recruiter dengan validasi keterampilanmu lewat
+                    Program Sertifikasi
+                  </div>
+                </div>
+                <a
+                  href="https://product.binaracademy.com/certification/home"
+                  style="
+                    color: rgb(18, 18, 18);
+                    width: 100%;
+                    padding-top: 4px;
+                    padding-bottom: 4px;
+                    padding-right: 12px;
+                    text-decoration: none solid rgb(18, 18, 18);
+                    max-width: 100%;
+                    display: block;
+                    box-sizing: border-box;
+                    background-color: rgba(0, 0, 0, 0);
+                  "
+                >
+                  <div
+                    style="
+                      color: rgb(147, 51, 147);
+                      font-size: 16px;
+                      font-weight: 600;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Lihat Detail
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            display: none;
+            padding-top: 0px;
+            transform: none;
+            z-index: 2;
+            background-color: rgb(255, 255, 255);
+            width: 637px;
+            font-size: 16px;
+            position: absolute;
+            top: 72px;
+            left: 50%;
+            box-sizing: border-box;
+          "
+        >
+          <div
+            style="
+              width: 275px;
+              padding-top: 1px;
+              padding-left: 1px;
+              box-sizing: border-box;
+            "
+          >
+            <div
+              style="
+                color: rgb(119, 40, 125);
+                cursor: pointer;
+                background-color: rgb(255, 255, 255);
+                border-top-left-radius: 8px;
+                font-weight: 700;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 16px;
+                display: flex;
+                position: static;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  box-sizing: border-box;
+                "
+              >
+                Digital Talent Accelerator
+              </div>
+              <img
+                src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/66273442333324e69bf2a246_right.svg"
+                loading="lazy"
+                alt=""
+                style="
+                  display: block;
+                  width: 24px;
+                  height: 24px;
+                  vertical-align: middle;
+                  max-width: 100%;
+                  box-sizing: border-box;
+                  border: 0px none rgb(119, 40, 125);
+                "
+              />
+              <div
+                style="
+                  min-height: 149px;
+                  color: rgb(18, 18, 18);
+                  border: 1px solid rgb(237, 237, 237);
+                  font-weight: 400;
+                  display: block;
+                  z-index: -1;
+                  cursor: default;
+                  background-color: rgb(245, 245, 245);
+                  border-radius: 8px;
+                  width: 637px;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
+                  padding-left: 274px;
+                  position: absolute;
+                  top: 0px;
+                  left: 0px;
+                  box-sizing: border-box;
+                "
+              >
+                <div
+                  style="
+                    min-height: 149px;
+                    background-color: rgb(255, 255, 255);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    margin-top: 0px;
+                    padding: 16px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div
+                    style="
+                      border-bottom: 1px solid rgb(224, 224, 224);
+                      padding-bottom: 16px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <div
+                      style="
+                        gap: 8px;
+                        justify-content: flex-start;
+                        align-items: center;
+                        display: flex;
+                        box-sizing: border-box;
+                      "
+                    >
+                      <img
+                        src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/63969c9f76a0d2eed37468f6_Logo.png"
+                        loading="lazy"
+                        alt=""
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(18, 18, 18);
+                        "
+                      />
+                      <div style="font-weight: 700; box-sizing: border-box">
+                        Digital Talent Accelerator<br
+                          style="box-sizing: border-box"
+                        />
+                      </div>
+                    </div>
+                    <div style="margin-top: 8px; box-sizing: border-box">
+                      <div style="box-sizing: border-box">
+                        Solusi training skill digital dengan berbagai metodde
+                        belajar intensif
+                      </div>
+                    </div>
+                    <a
+                      href="https://www.binaracademy.com/binar-dta"
+                      style="
+                        width: 100%;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                    >
+                      <div
+                        style="
+                          color: rgb(147, 51, 147);
+                          font-weight: 600;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Pelajari Lebih Lanjut
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                cursor: pointer;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 16px;
+                display: flex;
+                position: static;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  box-sizing: border-box;
+                "
+              >
+                Rekrut Talent Digital
+              </div>
+              <img
+                src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/66273442333324e69bf2a246_right.svg"
+                loading="lazy"
+                alt=""
+                style="
+                  width: 24px;
+                  height: 24px;
+                  display: none;
+                  vertical-align: middle;
+                  max-width: 100%;
+                  box-sizing: border-box;
+                  border: 0px none rgb(18, 18, 18);
+                "
+              />
+              <div
+                style="
+                  min-height: 149px;
+                  z-index: -1;
+                  cursor: default;
+                  background-color: rgb(245, 245, 245);
+                  border: 1px solid rgb(237, 237, 237);
+                  border-radius: 8px;
+                  width: 637px;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
+                  padding-left: 274px;
+                  display: none;
+                  position: absolute;
+                  top: 0px;
+                  left: 0px;
+                  box-sizing: border-box;
+                "
+              >
+                <div
+                  style="
+                    min-height: 149px;
+                    background-color: rgb(255, 255, 255);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    margin-top: 0px;
+                    padding: 16px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div
+                    style="
+                      border-bottom: 1px solid rgb(224, 224, 224);
+                      padding-bottom: 16px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <div
+                      style="
+                        gap: 8px;
+                        justify-content: flex-start;
+                        align-items: center;
+                        display: flex;
+                        box-sizing: border-box;
+                      "
+                    >
+                      <img
+                        src="https://cdn.prod.website-files.com/62d785c9e7b9b749907a5233/63969c9f76a0d281ff7468f4_Logo-1.png"
+                        loading="lazy"
+                        alt=""
+                        style="
+                          width: 24px;
+                          height: 24px;
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(18, 18, 18);
+                        "
+                      />
+                      <div style="font-weight: 700; box-sizing: border-box">
+                        Rekrut Talent Digital
+                      </div>
+                    </div>
+                    <div style="margin-top: 8px; box-sizing: border-box">
+                      <div style="box-sizing: border-box">
+                        Dengan talenta IT outsourcing siap kerja untuk
+                        perusahaan Anda.
+                      </div>
+                    </div>
+                    <a
+                      href="https://business.binaracademy.com/rekrut-talenta-digital"
+                      style="
+                        width: 100%;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                    >
+                      <div
+                        style="
+                          color: rgb(147, 51, 147);
+                          font-weight: 600;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Pelajari Lebih Lanjut
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="some-page-wrapper">
+      <div class="row">
+        <div class="column">
+          <div class="blue-column">
+            <!-- konten 1 -->
+            <div style="width: 542px; box-sizing: border-box">
+              <div
+                style="
+                  max-width: 450px;
+                  position: relative;
+                  box-sizing: border-box;
+                "
+              >
+                <h1
+                  style="
+                    line-height: 68px;
+                    font-weight: 700;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    font-size: 55px;
+                    box-sizing: border-box;
+                    margin: 0px;
+                  "
+                >
+                  One Stop Solution<br style="box-sizing: border-box" />
+                </h1>
+                <h1
+                  style="
+                    line-height: 68px;
+                    font-weight: 700;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    font-size: 55px;
+                    box-sizing: border-box;
+                    margin: 0px;
+                  "
+                >
+                  for World-Class Digital
+                </h1>
+                <div
+                  style="
+                    border: 2px solid rgb(18, 18, 18);
+                    background-color: rgb(245, 245, 245);
+                    border-radius: 16px;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    min-height: 68px;
+                    padding-top: 2px;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    display: flex;
+                    position: absolute;
+                    bottom: 4px;
+                    left: 167px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <h1
+                    style="
+                      height: 55px;
+                      line-height: 55px;
+                      font-weight: 700;
+                      margin-top: 0px;
+                      margin-bottom: 0px;
+                      font-size: 55px;
+                      box-sizing: border-box;
+                      margin: 0px;
+                    "
+                  >
+                    Organization
+                  </h1>
+                  <span
+                    aria-hidden="true"
+                    style="
+                      font-size: 60px;
+                      padding-bottom: 20px;
+                      animation: 0.7s ease 0s infinite normal none running
+                        typedjsBlink;
+                      opacity: 0.00123999;
+                      box-sizing: border-box;
+                      font-weight: 300;
+                    "
+                    >|</span
+                  >
+                </div>
+              </div>
+              <div style="margin-top: 32px; box-sizing: border-box">
+                <h5
+                  style="
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    box-sizing: border-box;
+                  "
+                >
+                  Empoweering Careers, Simplify Talent Aquisition, Catalyzing
+                  Business Impact.
+                  <strong style="box-sizing: border-box; font-weight: 700"
+                    >Trusted by 180.000+ Students &amp; 1.100 Companies</strong
+                  >
+                </h5>
+              </div>
+              <div style="gap: 16px; display: none; box-sizing: border-box">
+                <div
+                  style="
+                    gap: 8px;
+                    padding: 8px;
+                    display: flex;
+                    box-sizing: border-box;
+                  "
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbefdfe1529bd8be9ecb17_Image%20(1).png"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      width: 46px;
+                      height: 46px;
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  />
+                  <div style="box-sizing: border-box">
+                    <div
+                      style="
+                        font-size: 12px;
+                        line-height: 14px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      50 MOST PROMISING STARTUP<br
+                        style="box-sizing: border-box"
+                      />BY HOLONIQ 2021-2023
+                    </div>
+                    <a
+                      href="https://www.holoniq.com/global-education-trends?49cc12a4_page=4&amp;57f326bc_page=3&amp;9482ea36_page=3&amp;f35ef0b7_page=17"
+                      target="_blank"
+                      style="
+                        gap: 4px;
+                        align-items: center;
+                        margin-top: 4px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        display: flex;
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><img
+                        src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/62dfe0cf9f8924304d6d8151_search-icon.svg"
+                        loading="lazy"
+                        width="10"
+                        height="10"
+                        alt=""
+                        style="
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(147, 51, 147);
+                        "
+                      />
+                      <div
+                        style="
+                          font-size: 12px;
+                          font-weight: 700;
+                          line-height: 14px;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Lihat Artikel
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div
+                  style="
+                    gap: 8px;
+                    padding: 8px;
+                    display: flex;
+                    box-sizing: border-box;
+                  "
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbefdfe73a2498dfa60326_Image%20(2).png"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      width: 46px;
+                      height: 46px;
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  />
+                  <div style="box-sizing: border-box">
+                    <div
+                      style="
+                        font-size: 12px;
+                        line-height: 14px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      CERTIFIED EDUCATION ALLIANCE
+                      <br style="box-sizing: border-box" />FINLAND 2021
+                    </div>
+                    <a
+                      href="https://educationalliancefinland.com/products/binar-academy"
+                      target="_blank"
+                      style="
+                        gap: 4px;
+                        align-items: center;
+                        margin-top: 4px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        display: flex;
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><img
+                        src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/62dfe0cf9f8924304d6d8151_search-icon.svg"
+                        loading="lazy"
+                        width="10"
+                        height="10"
+                        alt=""
+                        style="
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(147, 51, 147);
+                        "
+                      />
+                      <div
+                        style="
+                          font-size: 12px;
+                          font-weight: 700;
+                          line-height: 14px;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Lihat Sertifikat
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  gap: 16px;
+                  margin-top: 32px;
+                  display: flex;
+                  box-sizing: border-box;
+                "
+              >
+                <a
+                  href="#"
+                  style="
+                    gap: 8px;
+                    background-color: rgb(147, 51, 147);
+                    color: rgb(255, 255, 255);
+                    text-align: center;
+                    cursor: pointer;
+                    border-radius: 8px;
+                    align-items: center;
+                    padding: 16px 16px 16px 24px;
+                    font-family: 'Causten semi', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 22px;
+                    text-decoration: none solid rgb(255, 255, 255);
+                    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                    display: flex;
+                    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px 0px;
+                    max-width: 100%;
+                    box-sizing: border-box;
+                  "
+                >
+                  <h5
+                    style="
+                      color: rgb(255, 255, 255);
+                      white-space: nowrap;
+                      transition: transform 0.3s
+                        cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                      font-weight: 700;
+                      margin-top: 0px;
+                      margin-bottom: 0px;
+                      font-size: 18px;
+                      line-height: 22px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Lihat Beragam Solusi
+                  </h5>
+                  <img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbe10beb8e2d5663121e56_arrowRight.svg"
+                    loading="eager"
+                    alt="arrow"
+                    style="
+                      transition: transform 0.2s
+                        cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(255, 255, 255);
+                    "
+                  /> </a
+                ><a
+                  href="https://wa.me/6281328127358"
+                  style="
+                    text-decoration: none solid rgb(147, 51, 147);
+                    color: rgb(147, 51, 147);
+                    max-width: 100%;
+                    display: block;
+                    box-sizing: border-box;
+                    background-color: rgba(0, 0, 0, 0);
+                  "
+                >
+                  <div
+                    style="
+                      text-decoration: none solid rgb(147, 51, 147);
+                      cursor: pointer;
+                      width: 240px;
+                      transition: background-color 0.3s
+                        cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                      justify-content: center;
+                      gap: 8px;
+                      border: 1px solid rgb(147, 51, 147);
+                      border-radius: 8px;
+                      align-items: center;
+                      padding: 17px 16px;
+                      display: flex;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <h5
+                      style="
+                        color: rgb(147, 51, 147);
+                        font-weight: 700;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        font-size: 18px;
+                        line-height: 22px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      Konsultasi
+                    </h5>
+                  </div>
+                </a>
+              </div>
+              <div
+                style="
+                  gap: 4px;
+                  flex-flow: column nowrap;
+                  margin-top: 16px;
+                  display: flex;
+                  box-sizing: border-box;
+                "
+              >
+                <div style="box-sizing: border-box">
+                  <img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbe22b3743ea9b19f243ba_star.svg"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: inline-block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  /><img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbe22b3743ea9b19f243ba_star.svg"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: inline-block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  /><img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbe22b3743ea9b19f243ba_star.svg"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: inline-block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  /><img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbe22b3743ea9b19f243ba_star.svg"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: inline-block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  /><img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbe22b651fb9d4a8406bc4_starPieces.svg"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: inline-block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  />
+                </div>
+                <div
+                  style="
+                    gap: 4px;
+                    align-items: center;
+                    display: flex;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div
+                    style="
+                      font-size: 14px;
+                      font-weight: 700;
+                      line-height: 18px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Student Experience Rate 4,5 / 5,0
+                  </div>
+                  <div
+                    style="
+                      cursor: pointer;
+                      justify-content: center;
+                      align-items: center;
+                      display: flex;
+                      position: relative;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <img
+                      src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbe22be1529bd8be90eaf0_outlineInfo.svg"
+                      loading="lazy"
+                      alt=""
+                      style="
+                        vertical-align: middle;
+                        max-width: 100%;
+                        display: block;
+                        box-sizing: border-box;
+                        border: 0px none rgb(51, 51, 51);
+                      "
+                    />
+                    <div
+                      style="
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: visibility 0.3s ease 0s,
+                          opacity 0.3s ease-out 0s;
+                        border: 1px solid rgb(224, 224, 224);
+                        cursor: default;
+                        background-color: rgb(255, 255, 255);
+                        border-radius: 8px;
+                        padding: 12px 16px;
+                        position: absolute;
+                        top: 28px;
+                        right: -13px;
+                        box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 5px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      <div
+                        style="
+                          gap: 2px;
+                          flex-flow: column nowrap;
+                          width: 224px;
+                          display: flex;
+                          box-sizing: border-box;
+                        "
+                      >
+                        <div
+                          style="
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 18px;
+                            box-sizing: border-box;
+                          "
+                        >
+                          Bagaimana Survey ini Dihitung
+                        </div>
+                        <div
+                          style="
+                            color: rgb(18, 18, 18);
+                            font-size: 12px;
+                            line-height: 14px;
+                            overflow: hidden;
+                            box-sizing: border-box;
+                          "
+                        >
+                          students experience rate ini dihitung secara berkala
+                          setiap minggunya sejak Juli 2020 kepada seluruh active
+                          student dengan metode kuantitatif
+                        </div>
+                      </div>
+                    </div>
+                    <div style="display: none; box-sizing: border-box"></div>
+                  </div>
+                  <div
+                    role="button"
+                    fs-modal-element="open-1"
+                    tabindex="0"
+                    aria-controls="fs-modal-2-popup"
+                    aria-haspopup="dialog"
+                    aria-expanded="false"
+                    aria-roledescription="open-modal-trigger"
+                    style="
+                      cursor: pointer;
+                      justify-content: center;
+                      align-items: center;
+                      display: none;
+                      position: relative;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <img
+                      src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbe22be1529bd8be90eaf0_outlineInfo.svg"
+                      loading="lazy"
+                      alt=""
+                      style="
+                        vertical-align: middle;
+                        max-width: 100%;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        border: 0px none rgb(51, 51, 51);
+                      "
+                    />
+                  </div>
+                </div>
+                <div
+                  style="
+                    color: rgb(18, 18, 18);
+                    font-size: 12px;
+                    line-height: 14px;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                  "
+                >
+                  from 180.000+ Student BINAR
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="green-column">
+            <!-- konten 2 -->
+
+            <div
+              style="
+                gap: 24px;
+                flex-flow: column nowrap;
+                flex: 0 0 auto;
+                display: flex;
+                box-sizing: border-box;
+              "
+            >
+              <div style="padding-right: 14px; box-sizing: border-box">
+                <div
+                  style="
+                    background-color: rgb(253, 222, 179);
+                    border: 1px solid rgb(255, 255, 255);
+                    border-radius: 16px;
+                    height: 265px;
+                    position: relative;
+                    overflow: visible;
+                    box-sizing: border-box;
+                  "
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/66039e7827c45966e6463a04_65fbec7cb9384cf3cc7db4f2_7bc1eccb9024e67254af40fe25bb8e86.jpg"
+                    loading="lazy"
+                    sizes="(max-width: 991px) 100vw, 506.40625px"
+                    srcset="
+                      https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/66039e7827c45966e6463a04_65fbec7cb9384cf3cc7db4f2_7bc1eccb9024e67254af40fe25bb8e86-p-500.jpg   500w,
+                      https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/66039e7827c45966e6463a04_65fbec7cb9384cf3cc7db4f2_7bc1eccb9024e67254af40fe25bb8e86-p-800.jpg   800w,
+                      https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/66039e7827c45966e6463a04_65fbec7cb9384cf3cc7db4f2_7bc1eccb9024e67254af40fe25bb8e86-p-1080.jpg 1080w,
+                      https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/66039e7827c45966e6463a04_65fbec7cb9384cf3cc7db4f2_7bc1eccb9024e67254af40fe25bb8e86.jpg        1280w
+                    "
+                    alt=""
+                    style="
+                      z-index: 1;
+                      aspect-ratio: auto;
+                      object-fit: cover;
+                      object-position: 50% 50%;
+                      border: 1px solid rgb(255, 255, 255);
+                      border-radius: 16px;
+                      width: 100%;
+                      height: 263px;
+                      display: block;
+                      position: relative;
+                      vertical-align: middle;
+                      max-width: 100%;
+                      box-sizing: border-box;
+                    "
+                  /><a
+                    href="#"
+                    aria-label="open lightbox"
+                    aria-haspopup="dialog"
+                    style="
+                      z-index: 3;
+                      justify-content: center;
+                      align-items: center;
+                      display: flex;
+                      position: absolute;
+                      inset: 0px;
+                      overflow: hidden;
+                      color: rgb(147, 51, 147);
+                      text-decoration: underline solid rgb(147, 51, 147);
+                      max-width: 100%;
+                      box-sizing: border-box;
+                      background-color: rgba(0, 0, 0, 0);
+                    "
+                  >
+                    <div
+                      data-w-id="aba042c2-5555-810d-ddfa-cf287318a1cf"
+                      data-animation-type="lottie"
+                      data-src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65dedd998eaba875c0492992_622599afb2da9999e9fc4abc_53979%20play%20button.json"
+                      data-loop="1"
+                      data-direction="1"
+                      data-autoplay="1"
+                      data-is-ix2-target="0"
+                      data-renderer="svg"
+                      data-default-duration="2"
+                      data-duration="0"
+                      style="
+                        width: 100px;
+                        height: 100px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 400 400"
+                        width="400"
+                        height="400"
+                        preserveAspectRatio="xMidYMid meet"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          transform: translate3d(0px, 0px, 0px);
+                          content-visibility: visible;
+                          height: 100px;
+                          transform: matrix(1, 0, 0, 1, 0, 0);
+                          content-visibility: visible;
+                          box-sizing: border-box;
+                          overflow: hidden;
+                        "
+                      >
+                        <defs style="box-sizing: border-box">
+                          <clipPath style="box-sizing: border-box">
+                            <rect
+                              width="400"
+                              height="400"
+                              x="0"
+                              y="0"
+                              style="box-sizing: border-box"
+                            ></rect>
+                          </clipPath>
+                        </defs>
+                        <g
+                          clip-path="url(#__lottie_element_9)"
+                          style="box-sizing: border-box"
+                        >
+                          <g
+                            transform="matrix(0.8476935029029846,0,0,0.8476935029029846,195.9607696533203,198.00100708007812)"
+                            opacity="0.005367625437704007"
+                            style="display: none; box-sizing: border-box"
+                          >
+                            <g
+                              opacity="1"
+                              transform="matrix(0.9719499945640564,0,0,0.9719499945640564,11.178000450134277,-2.697000026702881)"
+                              style="box-sizing: border-box"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                fill="rgb(249,157,27)"
+                                fill-opacity="1"
+                                d=" M0,-165.92750549316406 C91.57539367675781,-165.92750549316406 165.92750549316406,-91.57539367675781 165.92750549316406,0 C165.92750549316406,91.57539367675781 91.57539367675781,165.92750549316406 0,165.92750549316406 C-91.57539367675781,165.92750549316406 -165.92750549316406,91.57539367675781 -165.92750549316406,0 C-165.92750549316406,-91.57539367675781 -91.57539367675781,-165.92750549316406 0,-165.92750549316406z"
+                                style="box-sizing: border-box"
+                              ></path>
+                              <path
+                                stroke-linecap="butt"
+                                stroke-linejoin="miter"
+                                fill-opacity="0"
+                                stroke-miterlimit="4"
+                                stroke="rgb(0,0,0)"
+                                stroke-opacity="1"
+                                stroke-width="0"
+                                d=" M0,-165.92750549316406 C91.57539367675781,-165.92750549316406 165.92750549316406,-91.57539367675781 165.92750549316406,0 C165.92750549316406,91.57539367675781 91.57539367675781,165.92750549316406 0,165.92750549316406 C-91.57539367675781,165.92750549316406 -165.92750549316406,91.57539367675781 -165.92750549316406,0 C-165.92750549316406,-91.57539367675781 -91.57539367675781,-165.92750549316406 0,-165.92750549316406z"
+                                style="box-sizing: border-box"
+                              ></path>
+                            </g>
+                          </g>
+                          <g
+                            transform="matrix(0.9877980947494507,0,0,0.9877980947494507,193.15240478515625,198.07342529296875)"
+                            opacity="0.009819635204652002"
+                            style="display: none; box-sizing: border-box"
+                          >
+                            <g
+                              opacity="1"
+                              transform="matrix(0.9719499945640564,0,0,0.9719499945640564,11.178000450134277,-2.697000026702881)"
+                              style="box-sizing: border-box"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                fill="rgb(249,157,27)"
+                                fill-opacity="1"
+                                d=" M0,-165.92750549316406 C91.57539367675781,-165.92750549316406 165.92750549316406,-91.57539367675781 165.92750549316406,0 C165.92750549316406,91.57539367675781 91.57539367675781,165.92750549316406 0,165.92750549316406 C-91.57539367675781,165.92750549316406 -165.92750549316406,91.57539367675781 -165.92750549316406,0 C-165.92750549316406,-91.57539367675781 -91.57539367675781,-165.92750549316406 0,-165.92750549316406z"
+                                style="box-sizing: border-box"
+                              ></path>
+                              <path
+                                stroke-linecap="butt"
+                                stroke-linejoin="miter"
+                                fill-opacity="0"
+                                stroke-miterlimit="4"
+                                stroke="rgb(0,0,0)"
+                                stroke-opacity="1"
+                                stroke-width="0"
+                                d=" M0,-165.92750549316406 C91.57539367675781,-165.92750549316406 165.92750549316406,-91.57539367675781 165.92750549316406,0 C165.92750549316406,91.57539367675781 91.57539367675781,165.92750549316406 0,165.92750549316406 C-91.57539367675781,165.92750549316406 -165.92750549316406,91.57539367675781 -165.92750549316406,0 C-165.92750549316406,-91.57539367675781 -91.57539367675781,-165.92750549316406 0,-165.92750549316406z"
+                                style="box-sizing: border-box"
+                              ></path>
+                            </g>
+                          </g>
+                          <g
+                            transform="matrix(0.9433672428131104,0,0,0.9433672428131104,193.9950408935547,198.0001220703125)"
+                            opacity="1"
+                            style="display: block; box-sizing: border-box"
+                          >
+                            <g
+                              opacity="1"
+                              transform="matrix(0.7570400238037109,0,0,0.7570400238037109,11.178000450134277,-2.697000026702881)"
+                              style="box-sizing: border-box"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                fill="rgb(255,255,255)"
+                                fill-opacity="1"
+                                d=" M0,-165.92750549316406 C91.57539367675781,-165.92750549316406 165.92750549316406,-91.57539367675781 165.92750549316406,0 C165.92750549316406,91.57539367675781 91.57539367675781,165.92750549316406 0,165.92750549316406 C-91.57539367675781,165.92750549316406 -165.92750549316406,91.57539367675781 -165.92750549316406,0 C-165.92750549316406,-91.57539367675781 -91.57539367675781,-165.92750549316406 0,-165.92750549316406z"
+                                style="box-sizing: border-box"
+                              ></path>
+                              <path
+                                stroke-linecap="butt"
+                                stroke-linejoin="miter"
+                                fill-opacity="0"
+                                stroke-miterlimit="4"
+                                stroke="rgb(0,0,0)"
+                                stroke-opacity="1"
+                                stroke-width="0"
+                                d=" M0,-165.92750549316406 C91.57539367675781,-165.92750549316406 165.92750549316406,-91.57539367675781 165.92750549316406,0 C165.92750549316406,91.57539367675781 91.57539367675781,165.92750549316406 0,165.92750549316406 C-91.57539367675781,165.92750549316406 -165.92750549316406,91.57539367675781 -165.92750549316406,0 C-165.92750549316406,-91.57539367675781 -91.57539367675781,-165.92750549316406 0,-165.92750549316406z"
+                                style="box-sizing: border-box"
+                              ></path>
+                            </g>
+                          </g>
+                          <g
+                            transform="matrix(0.779654324054718,0,0,0.779654324054718,195.9955596923828,198.0001220703125)"
+                            opacity="1"
+                            style="display: block; box-sizing: border-box"
+                          >
+                            <g
+                              opacity="1"
+                              transform="matrix(0.7570400238037109,0,0,0.7570400238037109,11.178000450134277,-2.697000026702881)"
+                              style="box-sizing: border-box"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                fill="rgb(249,157,27)"
+                                fill-opacity="1"
+                                d=" M0,-165.92750549316406 C91.57539367675781,-165.92750549316406 165.92750549316406,-91.57539367675781 165.92750549316406,0 C165.92750549316406,91.57539367675781 91.57539367675781,165.92750549316406 0,165.92750549316406 C-91.57539367675781,165.92750549316406 -165.92750549316406,91.57539367675781 -165.92750549316406,0 C-165.92750549316406,-91.57539367675781 -91.57539367675781,-165.92750549316406 0,-165.92750549316406z"
+                                style="box-sizing: border-box"
+                              ></path>
+                              <path
+                                stroke-linecap="butt"
+                                stroke-linejoin="miter"
+                                fill-opacity="0"
+                                stroke-miterlimit="4"
+                                stroke="rgb(0,0,0)"
+                                stroke-opacity="1"
+                                stroke-width="0"
+                                d=" M0,-165.92750549316406 C91.57539367675781,-165.92750549316406 165.92750549316406,-91.57539367675781 165.92750549316406,0 C165.92750549316406,91.57539367675781 91.57539367675781,165.92750549316406 0,165.92750549316406 C-91.57539367675781,165.92750549316406 -165.92750549316406,91.57539367675781 -165.92750549316406,0 C-165.92750549316406,-91.57539367675781 -91.57539367675781,-165.92750549316406 0,-165.92750549316406z"
+                                style="box-sizing: border-box"
+                              ></path>
+                            </g>
+                          </g>
+                          <g
+                            transform="matrix(0.8439247012138367,0,0,0.8439247012138367,204.694580078125,195.89756774902344)"
+                            opacity="1"
+                            style="display: block; box-sizing: border-box"
+                          >
+                            <g
+                              opacity="1"
+                              transform="matrix(1,0,0,1,97.375,48.8129997253418)"
+                              style="box-sizing: border-box"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                fill="rgb(255,255,255)"
+                                fill-opacity="1"
+                                d=" M-130.031005859375,-96.68800354003906 C-130.031005859375,-96.68800354003906 -131,2 -131,3 C-131,4 -44.1879997253418,-47.25 -44.1879997253418,-47.25 C-44.1879997253418,-47.25 -130.031005859375,-96.68800354003906 -130.031005859375,-96.68800354003906z"
+                                style="box-sizing: border-box"
+                              ></path>
+                              <path
+                                stroke-linecap="butt"
+                                stroke-linejoin="miter"
+                                fill-opacity="0"
+                                stroke-miterlimit="4"
+                                stroke="rgb(255,255,255)"
+                                stroke-opacity="1"
+                                stroke-width="0"
+                                d=" M-130.031005859375,-96.68800354003906 C-130.031005859375,-96.68800354003906 -131,2 -131,3 C-131,4 -44.1879997253418,-47.25 -44.1879997253418,-47.25 C-44.1879997253418,-47.25 -130.031005859375,-96.68800354003906 -130.031005859375,-96.68800354003906z"
+                                style="box-sizing: border-box"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                  <div
+                    style="
+                      z-index: 2;
+                      background-image: linear-gradient(
+                        rgba(255, 255, 255, 0.3),
+                        rgba(151, 71, 255, 0.3)
+                      );
+                      border-radius: 16px;
+                      position: absolute;
+                      inset: 0px;
+                      box-sizing: border-box;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      z-index: 0;
+                      border: 1px solid rgb(255, 255, 255);
+                      background-color: rgb(219, 187, 219);
+                      border-radius: 16px;
+                      position: absolute;
+                      inset: 8px -8px -8px 8px;
+                      box-sizing: border-box;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="gap: 16px; display: flex; box-sizing: border-box">
+                <div
+                  style="
+                    gap: 8px;
+                    padding: 8px;
+                    display: flex;
+                    box-sizing: border-box;
+                  "
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbefdfe1529bd8be9ecb17_Image%20(1).png"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      width: 46px;
+                      height: 46px;
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  />
+                  <div style="box-sizing: border-box">
+                    <div
+                      style="
+                        font-size: 12px;
+                        line-height: 14px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      50 MOST PROMISING STARTUP<br
+                        style="box-sizing: border-box"
+                      />BY HOLONIQ 2021-2023
+                    </div>
+                    <a
+                      href="https://www.holoniq.com/global-education-trends?49cc12a4_page=4&amp;57f326bc_page=3&amp;9482ea36_page=3&amp;f35ef0b7_page=17"
+                      target="_blank"
+                      style="
+                        gap: 4px;
+                        align-items: center;
+                        margin-top: 4px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        display: flex;
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><img
+                        src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/62dfe0cf9f8924304d6d8151_search-icon.svg"
+                        loading="lazy"
+                        width="10"
+                        height="10"
+                        alt=""
+                        style="
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(147, 51, 147);
+                        "
+                      />
+                      <div
+                        style="
+                          font-size: 12px;
+                          font-weight: 700;
+                          line-height: 14px;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Lihat Artikel
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div
+                  style="
+                    gap: 8px;
+                    padding: 8px;
+                    display: flex;
+                    box-sizing: border-box;
+                  "
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/65fbefdfe73a2498dfa60326_Image%20(2).png"
+                    loading="lazy"
+                    alt=""
+                    style="
+                      width: 46px;
+                      height: 46px;
+                      vertical-align: middle;
+                      max-width: 100%;
+                      display: block;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  />
+                  <div style="box-sizing: border-box">
+                    <div
+                      style="
+                        font-size: 12px;
+                        line-height: 14px;
+                        box-sizing: border-box;
+                      "
+                    >
+                      CERTIFIED EDUCATION ALLIANCE
+                      <br style="box-sizing: border-box" />FINLAND 2021
+                    </div>
+                    <a
+                      href="https://educationalliancefinland.com/products/binar-academy"
+                      target="_blank"
+                      style="
+                        gap: 4px;
+                        align-items: center;
+                        margin-top: 4px;
+                        text-decoration: none solid rgb(147, 51, 147);
+                        display: flex;
+                        color: rgb(147, 51, 147);
+                        max-width: 100%;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><img
+                        src="https://cdn.prod.website-files.com/5e70b9a791ceb781b605048c/62dfe0cf9f8924304d6d8151_search-icon.svg"
+                        loading="lazy"
+                        width="10"
+                        height="10"
+                        alt=""
+                        style="
+                          vertical-align: middle;
+                          max-width: 100%;
+                          display: block;
+                          box-sizing: border-box;
+                          border: 0px none rgb(147, 51, 147);
+                        "
+                      />
+                      <div
+                        style="
+                          font-size: 12px;
+                          font-weight: 700;
+                          line-height: 14px;
+                          box-sizing: border-box;
+                        "
+                      >
+                        Lihat Sertifikat
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

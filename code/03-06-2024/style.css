@@ -16,7 +16,7 @@ div#wrapper {
     On screens that are less than 500px wide, 
     it will span the whole of the page:
     */
-  max-width: 500px;
+  /* max-width: 500px; */
   margin: auto;
 }
 
@@ -32,10 +32,57 @@ img#image_profile {
   margin: auto;
 }
 
-ul#nav {
+nav ul {
   list-style-type: none;
   align-items: center;
 }
-ul#nav > li {
+nav ul > li {
   display: inline;
+}
+nav {
+  margin-bottom: 3%;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section#projects h3 {
+  margin-bottom: 10px;
+}
+section#projects p {
+  margin-top: 0;
+}
+
+section#code {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+section#contact form,
+label {
+  display: block;
+  text-align: center;
+}
+
+section#contact {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+section#contact form label input {
+  margin-left: 10px;
+}
+section#contact form label:nth-child(1) input {
+  margin-left: 34px;
+}
+section#contact form label:nth-child(2) input {
+  margin-left: 34px;
+}
+section#contact form button {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+footer {
+  padding: 2%;
 }

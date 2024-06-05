@@ -1,0 +1,2047 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <html>
+      <head></head>
+
+      <body
+        style="
+          cursor: auto;
+          font-family: Lato, sans-serif;
+          font-size: 16px;
+          line-height: 22.8571px;
+          color: rgb(51, 51, 51);
+          background-color: rgb(255, 255, 255);
+          box-sizing: border-box;
+          margin: 0px;
+        "
+      >
+        <div
+          style="
+            box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 6px 0px,
+              rgba(0, 0, 0, 0.15) 0px 3px 6px 0px;
+            display: none;
+            cursor: pointer;
+            position: fixed;
+            right: 15px;
+            top: 10px;
+            color: rgb(52, 152, 219);
+            font-size: 24px;
+            z-index: 20;
+            padding: 0px 7px;
+            border-radius: 4px;
+            background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto
+              padding-box border-box;
+            box-sizing: border-box;
+          "
+        >
+          <i
+            aria-hidden="true"
+            style="
+              box-sizing: border-box;
+              display: inline-block;
+              font-style: normal;
+              font-variant: normal;
+              font-kerning: auto;
+              font-optical-sizing: auto;
+              font-feature-settings: normal;
+              font-variation-settings: normal;
+              font-weight: 400;
+              font-stretch: 100%;
+              line-height: 24px;
+              font-family: FontAwesome;
+              font-size: 24px;
+              text-rendering: auto;
+              -webkit-font-smoothing: antialiased;
+            "
+          ></i>
+        </div>
+        <!-- End #mobile-menu-toggle -->
+        <header
+          style="
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            text-align: center;
+            z-index: 10;
+            animation-name: dropHeader;
+            animation-iteration-count: 1;
+            animation-timing-function: ease;
+            animation-duration: 0.75s;
+            box-sizing: border-box;
+            display: block;
+          "
+        >
+          <div
+            style="
+              display: none;
+              text-align: right;
+              width: 100%;
+              background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto
+                padding-box border-box;
+              font-size: 24px;
+              padding-right: 15px;
+              padding-top: 10px;
+              cursor: pointer;
+              color: rgb(52, 152, 219);
+              box-sizing: border-box;
+            "
+          >
+            <span
+              style="
+                font-size: 12px;
+                text-transform: uppercase;
+                box-sizing: border-box;
+              "
+              >Close</span
+            >
+            <i
+              aria-hidden="true"
+              style="
+                vertical-align: middle;
+                box-sizing: border-box;
+                display: inline-block;
+                font-style: normal;
+                font-variant: normal;
+                font-kerning: auto;
+                font-optical-sizing: auto;
+                font-feature-settings: normal;
+                font-variation-settings: normal;
+                font-weight: 400;
+                font-stretch: 100%;
+                line-height: 24px;
+                font-family: FontAwesome;
+                font-size: 24px;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+              "
+            ></i>
+          </div>
+          <ul
+            style="
+              box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px 0px,
+                rgba(0, 0, 0, 0.24) 0px 1px 2px 0px;
+              display: inline-block;
+              background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto
+                padding-box border-box;
+              text-align: center;
+              padding: 10px;
+              margin: 0px;
+              border-bottom-right-radius: 4px;
+              border-bottom-left-radius: 4px;
+              box-sizing: border-box;
+            "
+          >
+            <li style="display: inline-block; box-sizing: border-box">
+              <a
+                href="#about"
+                style="
+                  display: block;
+                  color: rgb(52, 152, 219);
+                  padding: 10px;
+                  text-decoration: none solid rgb(52, 152, 219);
+                  box-sizing: border-box;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+                >About</a
+              >
+            </li>
+            <li style="display: inline-block; box-sizing: border-box">
+              <a
+                href="#experience"
+                style="
+                  display: block;
+                  color: rgb(52, 152, 219);
+                  padding: 10px;
+                  text-decoration: none solid rgb(52, 152, 219);
+                  box-sizing: border-box;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+                >Experience</a
+              >
+            </li>
+            <li style="display: inline-block; box-sizing: border-box">
+              <a
+                href="#education"
+                style="
+                  display: block;
+                  color: rgb(52, 152, 219);
+                  padding: 10px;
+                  text-decoration: none solid rgb(52, 152, 219);
+                  box-sizing: border-box;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+                >Education</a
+              >
+            </li>
+            <li style="display: inline-block; box-sizing: border-box">
+              <a
+                href="#projects"
+                style="
+                  display: block;
+                  color: rgb(52, 152, 219);
+                  padding: 10px;
+                  text-decoration: none solid rgb(52, 152, 219);
+                  box-sizing: border-box;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+                >Projects</a
+              >
+            </li>
+            <li style="display: inline-block; box-sizing: border-box">
+              <a
+                href="#skills"
+                style="
+                  display: block;
+                  color: rgb(52, 152, 219);
+                  padding: 10px;
+                  text-decoration: none solid rgb(52, 152, 219);
+                  box-sizing: border-box;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+                >Skills</a
+              >
+            </li>
+            <li style="display: inline-block; box-sizing: border-box">
+              <a
+                href="#contact"
+                style="
+                  display: block;
+                  color: rgb(52, 152, 219);
+                  padding: 10px;
+                  text-decoration: none solid rgb(52, 152, 219);
+                  box-sizing: border-box;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </header>
+        <!-- End header -->
+        <div
+          style="
+            position: relative;
+            height: 915px;
+            min-height: 500px;
+            max-height: 1080px;
+            background: rgba(0, 0, 0, 0)
+              url('https://ryanfitzgerald.github.io/images/lead-bg.jpg') repeat
+              scroll 0% 0% / cover padding-box border-box;
+            padding: 15px;
+            overflow: hidden;
+            box-sizing: border-box;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              z-index: 10;
+              top: 457.5px;
+              left: 546.5px;
+              transform: matrix(1, 0, 0, 1, -273.25, -134.633);
+              text-align: center;
+              box-sizing: border-box;
+            "
+          >
+            <h1
+              style="
+                color: rgb(255, 255, 255);
+                font-weight: 900;
+                font-size: 80px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                line-height: 72px;
+                margin: 0px;
+                box-sizing: border-box;
+              "
+            >
+              Ryan Fitzgerald
+            </h1>
+            <h2
+              style="
+                color: rgb(160, 207, 238);
+                font-weight: 500;
+                font-size: 36px;
+                margin-bottom: 15px;
+                margin: 0px 0px 15px;
+                box-sizing: border-box;
+              "
+            >
+              Software Engineer
+            </h2>
+            <a
+              href="#"
+              style="
+                display: inline-block;
+                color: rgb(255, 255, 255);
+                padding: 15px 25px;
+                border: 3px solid rgb(255, 255, 255);
+                border-radius: 30px;
+                transition: all 0.5s ease 0s;
+                text-decoration: none solid rgb(255, 255, 255);
+                box-sizing: border-box;
+                background-color: rgba(0, 0, 0, 0);
+              "
+              >Download Resume</a
+            >
+          </div>
+          <!-- End #lead-content -->
+          <div
+            style="
+              position: absolute;
+              height: 915px;
+              width: 100%;
+              inset: 0px;
+              background: rgba(33, 125, 187, 0.8) none repeat scroll 0% 0% /
+                auto padding-box border-box;
+              z-index: 1;
+              box-sizing: border-box;
+            "
+          ></div>
+          <div
+            style="
+              position: absolute;
+              left: 0px;
+              right: 0px;
+              width: 100%;
+              text-align: center;
+              z-index: 10;
+              bottom: 15px;
+              color: rgb(255, 255, 255);
+              box-sizing: border-box;
+            "
+          >
+            <span
+              style="
+                cursor: pointer;
+                display: block;
+                margin: 0px auto;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                border: 3px solid rgb(160, 207, 238);
+                text-align: center;
+                box-sizing: border-box;
+              "
+            >
+              <i
+                aria-hidden="true"
+                style="
+                  animation: 1.5s ease 0s infinite normal none running pulsate;
+                  padding-top: 5px;
+                  box-sizing: border-box;
+                  display: inline-block;
+                  font-style: normal;
+                  font-variant: normal;
+                  font-kerning: auto;
+                  font-optical-sizing: auto;
+                  font-feature-settings: normal;
+                  font-variation-settings: normal;
+                  font-weight: 400;
+                  font-stretch: 100%;
+                  line-height: 16px;
+                  font-family: FontAwesome;
+                  font-size: 16px;
+                  text-rendering: auto;
+                  -webkit-font-smoothing: antialiased;
+                "
+              ></i>
+            </span>
+          </div>
+          <!-- End #lead-down -->
+        </div>
+        <!-- End #lead -->
+        <div
+          style="
+            padding: 75px 15px;
+            border-bottom: 1px solid rgb(220, 217, 217);
+            box-sizing: border-box;
+          "
+        >
+          <div
+            style="
+              width: 970px;
+              margin-right: auto;
+              margin-left: auto;
+              padding-left: 15px;
+              padding-right: 15px;
+              box-sizing: border-box;
+            "
+          >
+            <div
+              style="
+                margin-left: -15px;
+                margin-right: -15px;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  width: 33.3333%;
+                  float: left;
+                  position: relative;
+                  min-height: 1px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  box-sizing: border-box;
+                "
+              >
+                <h2
+                  style="
+                    color: rgb(55, 64, 84);
+                    position: relative;
+                    display: inline-block;
+                    font-size: 32px;
+                    font-weight: 300;
+                    margin: 0px 0px 30px;
+                    box-sizing: border-box;
+                  "
+                >
+                  About Me
+                </h2>
+              </div>
+              <div
+                style="
+                  width: 66.6667%;
+                  float: left;
+                  position: relative;
+                  min-height: 1px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  box-sizing: border-box;
+                "
+              >
+                <p
+                  style="
+                    color: rgb(116, 128, 138);
+                    margin: 0px;
+                    box-sizing: border-box;
+                  "
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+                  tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                  eget efficitur libero. Morbi dapibus porta quam laoreet
+                  placerat. Donec eu vehicula neque. Donec viverra lorem nunc,
+                  tempus euismod eros sollicitudin ut. Quisque et tincidunt
+                  libero. Donec id pharetra justo. Proin euismod lacinia dolor,
+                  eu scelerisque justo tempus pharetra. Vivamus nunc justo,
+                  finibus ut nisl sed, euismod rhoncus nulla. Proin sed magna
+                  egestas, egestas ante et, congue eros. In consequat, mauris
+                  dapibus tincidunt suscipit, ex libero aliquet diam, at maximus
+                  risus enim non leo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End #about -->
+        <div
+          style="
+            padding: 50px 15px;
+            text-align: center;
+            border-bottom: 1px solid rgb(220, 217, 217);
+            background: rgb(242, 242, 245) none repeat scroll 0% 0% / auto
+              padding-box border-box;
+            box-sizing: border-box;
+          "
+        >
+          <h2
+            style="
+              color: rgb(55, 64, 84);
+              position: relative;
+              display: inline-block;
+              font-size: 32px;
+              font-weight: 300;
+              margin: 0px 0px 30px;
+              box-sizing: border-box;
+            "
+          >
+            Experience
+          </h2>
+          <div
+            style="
+              margin: 30px auto 0px;
+              position: relative;
+              max-width: 1000px;
+              box-sizing: border-box;
+            "
+          >
+            <div
+              style="
+                position: relative;
+                display: block;
+                vertical-align: top;
+                margin-bottom: 30px;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  position: relative;
+                  color: rgb(255, 255, 255);
+                  width: 50px;
+                  height: 50px;
+                  background: rgb(52, 152, 219) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  border-radius: 50%;
+                  float: left;
+                  z-index: 99;
+                  margin-left: 280px;
+                  box-sizing: border-box;
+                "
+              >
+                <i
+                  style="
+                    display: block;
+                    font-size: 32px;
+                    margin-top: 10px;
+                    box-sizing: border-box;
+                    font-style: normal;
+                    font-variant: normal;
+                    font-kerning: auto;
+                    font-optical-sizing: auto;
+                    font-feature-settings: normal;
+                    font-variation-settings: normal;
+                    font-weight: 400;
+                    font-stretch: 100%;
+                    line-height: 32px;
+                    font-family: FontAwesome;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                  "
+                ></i>
+              </div>
+              <div style="box-sizing: border-box">
+                <span
+                  style="
+                    width: 260px;
+                    text-align: right;
+                    position: absolute;
+                    left: 0px;
+                    top: 10px;
+                    font-weight: 300;
+                    color: rgb(55, 64, 84);
+                    box-sizing: border-box;
+                  "
+                  >September 2015 – September 2016</span
+                >
+                <div
+                  data-date="September 2015 – September 2016"
+                  style="
+                    margin-left: 350px;
+                    background: rgb(255, 255, 255) none repeat scroll 0% 0% /
+                      auto padding-box border-box;
+                    border: 1px solid rgb(230, 230, 230);
+                    padding: 15px;
+                    border-radius: 3px;
+                    text-align: left;
+                    box-sizing: border-box;
+                  "
+                >
+                  <h3
+                    style="
+                      font-size: 24px;
+                      font-weight: 300;
+                      color: rgb(55, 64, 84);
+                      display: inline-block;
+                      margin: 0px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Employer Name
+                  </h3>
+                  <h4
+                    style="
+                      font-size: 19.2px;
+                      font-weight: 300;
+                      color: rgb(126, 136, 144);
+                      margin: 0px 0px 15px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Job Title
+                  </h4>
+                  <p
+                    style="
+                      color: rgb(116, 128, 138);
+                      font-size: 14.4px;
+                      margin: 0px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi
+                    ut tortor nec nulla commodo malesuada sit amet vel lacus.
+                    Fusce eget efficitur libero. Morbi dapibus porta quam
+                    laoreet placerat.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                position: relative;
+                display: block;
+                vertical-align: top;
+                margin-bottom: 30px;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  position: relative;
+                  color: rgb(255, 255, 255);
+                  width: 50px;
+                  height: 50px;
+                  background: rgb(52, 152, 219) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  border-radius: 50%;
+                  float: left;
+                  z-index: 99;
+                  margin-left: 280px;
+                  box-sizing: border-box;
+                "
+              >
+                <i
+                  style="
+                    display: block;
+                    font-size: 32px;
+                    margin-top: 10px;
+                    box-sizing: border-box;
+                    font-style: normal;
+                    font-variant: normal;
+                    font-kerning: auto;
+                    font-optical-sizing: auto;
+                    font-feature-settings: normal;
+                    font-variation-settings: normal;
+                    font-weight: 400;
+                    font-stretch: 100%;
+                    line-height: 32px;
+                    font-family: FontAwesome;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                  "
+                ></i>
+              </div>
+              <div style="box-sizing: border-box">
+                <span
+                  style="
+                    width: 260px;
+                    text-align: right;
+                    position: absolute;
+                    left: 0px;
+                    top: 10px;
+                    font-weight: 300;
+                    color: rgb(55, 64, 84);
+                    box-sizing: border-box;
+                  "
+                  >September 2015 – September 2016</span
+                >
+                <div
+                  data-date="September 2015 – September 2016"
+                  style="
+                    margin-left: 350px;
+                    background: rgb(255, 255, 255) none repeat scroll 0% 0% /
+                      auto padding-box border-box;
+                    border: 1px solid rgb(230, 230, 230);
+                    padding: 15px;
+                    border-radius: 3px;
+                    text-align: left;
+                    box-sizing: border-box;
+                  "
+                >
+                  <h3
+                    style="
+                      font-size: 24px;
+                      font-weight: 300;
+                      color: rgb(55, 64, 84);
+                      display: inline-block;
+                      margin: 0px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Employer Name
+                  </h3>
+                  <h4
+                    style="
+                      font-size: 19.2px;
+                      font-weight: 300;
+                      color: rgb(126, 136, 144);
+                      margin: 0px 0px 15px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Job Title
+                  </h4>
+                  <p
+                    style="
+                      color: rgb(116, 128, 138);
+                      font-size: 14.4px;
+                      margin: 0px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi
+                    ut tortor nec nulla commodo malesuada sit amet vel lacus.
+                    Fusce eget efficitur libero. Morbi dapibus porta quam
+                    laoreet placerat.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                position: relative;
+                display: block;
+                vertical-align: top;
+                margin-bottom: 30px;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  position: relative;
+                  color: rgb(255, 255, 255);
+                  width: 50px;
+                  height: 50px;
+                  background: rgb(52, 152, 219) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  border-radius: 50%;
+                  float: left;
+                  z-index: 99;
+                  margin-left: 280px;
+                  box-sizing: border-box;
+                "
+              >
+                <i
+                  style="
+                    display: block;
+                    font-size: 32px;
+                    margin-top: 10px;
+                    box-sizing: border-box;
+                    font-style: normal;
+                    font-variant: normal;
+                    font-kerning: auto;
+                    font-optical-sizing: auto;
+                    font-feature-settings: normal;
+                    font-variation-settings: normal;
+                    font-weight: 400;
+                    font-stretch: 100%;
+                    line-height: 32px;
+                    font-family: FontAwesome;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                  "
+                ></i>
+              </div>
+              <div style="box-sizing: border-box">
+                <span
+                  style="
+                    width: 260px;
+                    text-align: right;
+                    position: absolute;
+                    left: 0px;
+                    top: 10px;
+                    font-weight: 300;
+                    color: rgb(55, 64, 84);
+                    box-sizing: border-box;
+                  "
+                  >September 2015 – September 2016</span
+                >
+                <div
+                  data-date="September 2015 – September 2016"
+                  style="
+                    margin-left: 350px;
+                    background: rgb(255, 255, 255) none repeat scroll 0% 0% /
+                      auto padding-box border-box;
+                    border: 1px solid rgb(230, 230, 230);
+                    padding: 15px;
+                    border-radius: 3px;
+                    text-align: left;
+                    box-sizing: border-box;
+                  "
+                >
+                  <h3
+                    style="
+                      font-size: 24px;
+                      font-weight: 300;
+                      color: rgb(55, 64, 84);
+                      display: inline-block;
+                      margin: 0px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Employer Name
+                  </h3>
+                  <h4
+                    style="
+                      font-size: 19.2px;
+                      font-weight: 300;
+                      color: rgb(126, 136, 144);
+                      margin: 0px 0px 15px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Job Title
+                  </h4>
+                  <p
+                    style="
+                      color: rgb(116, 128, 138);
+                      font-size: 14.4px;
+                      margin: 0px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi
+                    ut tortor nec nulla commodo malesuada sit amet vel lacus.
+                    Fusce eget efficitur libero. Morbi dapibus porta quam
+                    laoreet placerat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End #experience -->
+        <div
+          style="
+            padding: 50px 15px 20px;
+            border-bottom: 1px solid rgb(220, 217, 217);
+            text-align: center;
+            box-sizing: border-box;
+          "
+        >
+          <h2
+            style="
+              color: rgb(55, 64, 84);
+              margin-bottom: 50px;
+              position: relative;
+              display: inline-block;
+              font-size: 32px;
+              font-weight: 300;
+              margin: 0px 0px 50px;
+              box-sizing: border-box;
+            "
+          >
+            Education
+          </h2>
+          <div
+            style="
+              max-width: 700px;
+              margin: 0px auto 30px;
+              padding: 15px;
+              border: 1px solid rgb(220, 217, 217);
+              text-align: left;
+              box-sizing: border-box;
+            "
+          >
+            <h3
+              style="
+                font-weight: 500;
+                float: left;
+                margin: 0px;
+                color: rgb(55, 64, 84);
+                box-sizing: border-box;
+              "
+            >
+              University of Ottawa
+            </h3>
+            <span
+              style="
+                color: rgb(116, 128, 138);
+                float: right;
+                box-sizing: border-box;
+              "
+              >Sept 2016 - Sept 2017</span
+            >
+            <h4
+              style="
+                color: rgb(116, 128, 138);
+                clear: both;
+                font-weight: 500;
+                margin: 0px 0px 15px;
+                box-sizing: border-box;
+              "
+            >
+              Bachelor of Science in Computer Science
+            </h4>
+            <p
+              style="
+                margin: 0px;
+                color: rgb(116, 128, 138);
+                font-size: 14.4px;
+                box-sizing: border-box;
+              "
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
+              nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
+              libero. Morbi dapibus porta quam laoreet placerat.
+            </p>
+          </div>
+          <!-- End .education-block -->
+          <div
+            style="
+              max-width: 700px;
+              margin: 0px auto 30px;
+              padding: 15px;
+              border: 1px solid rgb(220, 217, 217);
+              text-align: left;
+              box-sizing: border-box;
+            "
+          >
+            <h3
+              style="
+                font-weight: 500;
+                float: left;
+                margin: 0px;
+                color: rgb(55, 64, 84);
+                box-sizing: border-box;
+              "
+            >
+              University of Ottawa
+            </h3>
+            <span
+              style="
+                color: rgb(116, 128, 138);
+                float: right;
+                box-sizing: border-box;
+              "
+              >Sept 2016 - Sept 2017</span
+            >
+            <h4
+              style="
+                color: rgb(116, 128, 138);
+                clear: both;
+                font-weight: 500;
+                margin: 0px 0px 15px;
+                box-sizing: border-box;
+              "
+            >
+              Bachelor of Science in Computer Science
+            </h4>
+            <ul
+              style="
+                padding: 0px 0px 0px 15px;
+                margin: 0px;
+                color: rgb(116, 128, 138);
+                font-size: 14.4px;
+                box-sizing: border-box;
+              "
+            >
+              <li style="box-sizing: border-box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li style="box-sizing: border-box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li style="box-sizing: border-box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+            </ul>
+          </div>
+          <!-- End .education-block -->
+        </div>
+        <!-- End #education -->
+        <div
+          style="
+            padding: 50px 15px;
+            border-bottom: 1px solid rgb(220, 217, 217);
+            text-align: center;
+            background: rgb(242, 242, 245) none repeat scroll 0% 0% / auto
+              padding-box border-box;
+            box-sizing: border-box;
+          "
+        >
+          <h2
+            style="
+              color: rgb(55, 64, 84);
+              margin-bottom: 50px;
+              position: relative;
+              display: inline-block;
+              font-size: 32px;
+              font-weight: 300;
+              margin: 0px 0px 50px;
+              box-sizing: border-box;
+            "
+          >
+            Projects
+          </h2>
+          <div
+            style="
+              width: 970px;
+              margin-right: auto;
+              margin-left: auto;
+              padding-left: 15px;
+              padding-right: 15px;
+              box-sizing: border-box;
+            "
+          >
+            <div
+              style="
+                margin-left: -15px;
+                margin-right: -15px;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  position: relative;
+                  max-width: 900px;
+                  margin: 0px auto 30px;
+                  overflow: hidden;
+                  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  border-radius: 4px;
+                  box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 6px 0px,
+                    rgba(0, 0, 0, 0.15) 0px 3px 6px 0px;
+                  box-sizing: border-box;
+                "
+              >
+                <div style="float: left; box-sizing: border-box">
+                  <img
+                    src="images/project.jpg"
+                    style="
+                      vertical-align: middle;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  />
+                </div>
+                <!-- End .project-image -->
+                <div
+                  style="
+                    position: absolute;
+                    top: 150px;
+                    transform: matrix(1, 0, 0, 1, 0, -89.4297);
+                    margin-left: 300px;
+                    padding: 15px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <h3
+                    style="
+                      font-size: 24px;
+                      font-weight: 300;
+                      color: rgb(55, 64, 84);
+                      margin: 0px 0px 15px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Project Name Here
+                  </h3>
+                  <p
+                    style="
+                      color: rgb(116, 128, 138);
+                      margin: 0px 0px 15px;
+                      font-size: 14.4px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi
+                    ut tortor nec nulla commodo malesuada sit amet vel lacus.
+                    Fusce eget efficitur libero. Morbi dapibus porta quam
+                    laoreet placerat.
+                  </p>
+                  <a
+                    href="#"
+                    style="
+                      color: rgb(51, 122, 183);
+                      text-decoration: none solid rgb(51, 122, 183);
+                      box-sizing: border-box;
+                      background-color: rgba(0, 0, 0, 0);
+                    "
+                    >View Project</a
+                  >
+                </div>
+                <!-- End .project-info -->
+              </div>
+              <!-- End .project -->
+              <div
+                style="
+                  position: relative;
+                  max-width: 900px;
+                  margin: 0px auto 30px;
+                  overflow: hidden;
+                  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  border-radius: 4px;
+                  box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 6px 0px,
+                    rgba(0, 0, 0, 0.15) 0px 3px 6px 0px;
+                  box-sizing: border-box;
+                "
+              >
+                <div style="float: left; box-sizing: border-box">
+                  <img
+                    src="images/project.jpg"
+                    style="
+                      vertical-align: middle;
+                      box-sizing: border-box;
+                      border: 0px none rgb(51, 51, 51);
+                    "
+                  />
+                </div>
+                <!-- End .project-image -->
+                <div
+                  style="
+                    position: absolute;
+                    top: 150px;
+                    transform: matrix(1, 0, 0, 1, 0, -89.4297);
+                    margin-left: 300px;
+                    padding: 15px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <h3
+                    style="
+                      font-size: 24px;
+                      font-weight: 300;
+                      color: rgb(55, 64, 84);
+                      margin: 0px 0px 15px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Project Name Here
+                  </h3>
+                  <p
+                    style="
+                      color: rgb(116, 128, 138);
+                      margin: 0px 0px 15px;
+                      font-size: 14.4px;
+                      box-sizing: border-box;
+                    "
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi
+                    ut tortor nec nulla commodo malesuada sit amet vel lacus.
+                    Fusce eget efficitur libero. Morbi dapibus porta quam
+                    laoreet placerat.
+                  </p>
+                  <a
+                    href="#"
+                    style="
+                      color: rgb(51, 122, 183);
+                      text-decoration: none solid rgb(51, 122, 183);
+                      box-sizing: border-box;
+                      background-color: rgba(0, 0, 0, 0);
+                    "
+                    >View Project</a
+                  >
+                </div>
+                <!-- End .project-info -->
+              </div>
+              <!-- End .project -->
+            </div>
+          </div>
+        </div>
+        <!-- End #projects -->
+        <div
+          style="padding: 50px 15px; text-align: center; box-sizing: border-box"
+        >
+          <h2
+            style="
+              color: rgb(55, 64, 84);
+              margin-bottom: 50px;
+              position: relative;
+              display: inline-block;
+              font-size: 32px;
+              font-weight: 300;
+              margin: 0px 0px 50px;
+              box-sizing: border-box;
+            "
+          >
+            Skills
+          </h2>
+          <ul
+            style="
+              display: block;
+              margin: 0px auto;
+              padding: 0px;
+              max-width: 800px;
+              box-sizing: border-box;
+            "
+          >
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              JavaScript
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Python
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Ruby
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Go
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Node.js
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              AngularJs
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              React
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Elixir
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Java
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              C
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              C#
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              C++
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Ruby on Rails
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              JavaScript
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Python
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Ruby
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Go
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Node.js
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              AngularJs
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              React
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Elixir
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Java
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              C
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              C#
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              C++
+            </li>
+            <li
+              style="
+                display: inline-block;
+                margin: 7px;
+                padding: 5px 10px;
+                color: rgb(55, 64, 84);
+                background: rgb(228, 228, 234) none repeat scroll 0% 0% / auto
+                  padding-box border-box;
+                list-style: outside none none;
+                cursor: default;
+                font-size: 19.2px;
+                box-sizing: border-box;
+              "
+            >
+              Ruby on Rails
+            </li>
+          </ul>
+        </div>
+        <!-- End #skills -->
+        <div
+          style="
+            padding: 50px 15px;
+            background: rgb(52, 152, 219) none repeat scroll 0% 0% / auto
+              padding-box border-box;
+            text-align: center;
+            box-sizing: border-box;
+          "
+        >
+          <h2
+            style="
+              margin: 0px 0px 15px;
+              color: rgb(255, 255, 255);
+              font-weight: 500;
+              box-sizing: border-box;
+            "
+          >
+            Get in Touch
+          </h2>
+          <div
+            style="max-width: 500px; margin: 0px auto; box-sizing: border-box"
+          >
+            <form
+              method="POST"
+              action="https://formspree.io/email@email.com"
+              style="box-sizing: border-box"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="Contact request from personal website"
+                style="
+                  display: none;
+                  width: 100%;
+                  padding: 10px;
+                  border-radius: 4px;
+                  border: 0px none rgb(255, 255, 255);
+                  margin-bottom: 10px;
+                  background: rgb(29, 111, 165) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  color: rgb(255, 255, 255);
+                  transition: all 0.5s ease 0s;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  line-height: 22.8571px;
+                  box-sizing: border-box;
+                  margin: 0px 0px 10px;
+                "
+              />
+              <input
+                type="email"
+                name="_replyto"
+                placeholder="Your email"
+                required=""
+                style="
+                  display: block;
+                  width: 100%;
+                  padding: 10px;
+                  border-radius: 4px;
+                  border: 0px none rgb(255, 255, 255);
+                  margin-bottom: 10px;
+                  background: rgb(29, 111, 165) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  color: rgb(255, 255, 255);
+                  transition: all 0.5s ease 0s;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  line-height: 22.8571px;
+                  box-sizing: border-box;
+                  margin: 0px 0px 10px;
+                "
+              />
+              <textarea
+                name="message"
+                placeholder="Your message"
+                required=""
+                style="
+                  height: 150px;
+                  resize: none;
+                  display: block;
+                  width: 100%;
+                  padding: 10px;
+                  border-radius: 4px;
+                  border: 0px none rgb(255, 255, 255);
+                  margin-bottom: 10px;
+                  background: rgb(29, 111, 165) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  color: rgb(255, 255, 255);
+                  transition: all 0.5s ease 0s;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  line-height: 22.8571px;
+                  box-sizing: border-box;
+                  overflow: auto;
+                  margin: 0px 0px 10px;
+                "
+              ></textarea>
+              <button
+                type="submit"
+                style="
+                  display: block;
+                  width: 100%;
+                  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto
+                    padding-box border-box;
+                  border-radius: 4px;
+                  padding: 5px 10px;
+                  border: 0px none rgb(52, 152, 219);
+                  color: rgb(52, 152, 219);
+                  font-weight: 700;
+                  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px 0px,
+                    rgba(0, 0, 0, 0.24) 0px 1px 2px 0px;
+                  transition: all 0.5s ease 0s;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  line-height: 22.8571px;
+                  box-sizing: border-box;
+                  appearance: button;
+                  cursor: pointer;
+                  text-transform: none;
+                  overflow: visible;
+                  margin: 0px;
+                "
+              >
+                Send
+              </button>
+            </form>
+          </div>
+          <!-- End #contact-form -->
+        </div>
+        <!-- End #contact -->
+        <footer
+          style="padding: 50px 0px; box-sizing: border-box; display: block"
+        >
+          <div
+            style="
+              width: 970px;
+              margin-right: auto;
+              margin-left: auto;
+              padding-left: 15px;
+              padding-right: 15px;
+              box-sizing: border-box;
+            "
+          >
+            <div
+              style="
+                margin-left: -15px;
+                margin-right: -15px;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  width: 41.6667%;
+                  float: left;
+                  padding-top: 20px;
+                  position: relative;
+                  min-height: 1px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  box-sizing: border-box;
+                "
+              >
+                <p
+                  style="
+                    margin: 0px;
+                    color: rgb(116, 128, 138);
+                    box-sizing: border-box;
+                  "
+                >
+                  Copyright © 2017 YOUR NAME
+                </p>
+              </div>
+              <div
+                style="
+                  width: 16.6667%;
+                  float: left;
+                  text-align: center;
+                  position: relative;
+                  min-height: 1px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  box-sizing: border-box;
+                "
+              >
+                <span
+                  style="
+                    cursor: pointer;
+                    display: block;
+                    margin: 15px auto 0px;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    border: 3px solid rgb(185, 191, 196);
+                    text-align: center;
+                    box-sizing: border-box;
+                  "
+                >
+                  <i
+                    aria-hidden="true"
+                    style="
+                      color: rgb(116, 128, 138);
+                      box-sizing: border-box;
+                      display: inline-block;
+                      font-style: normal;
+                      font-variant: normal;
+                      font-kerning: auto;
+                      font-optical-sizing: auto;
+                      font-feature-settings: normal;
+                      font-variation-settings: normal;
+                      font-weight: 400;
+                      font-stretch: 100%;
+                      line-height: 16px;
+                      font-family: FontAwesome;
+                      font-size: 16px;
+                      text-rendering: auto;
+                      -webkit-font-smoothing: antialiased;
+                    "
+                  ></i>
+                </span>
+              </div>
+              <div
+                style="
+                  width: 41.6667%;
+                  float: left;
+                  text-align: right;
+                  position: relative;
+                  min-height: 1px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  box-sizing: border-box;
+                "
+              >
+                <ul
+                  style="
+                    margin: 5px 0px 0px;
+                    padding: 0px;
+                    box-sizing: border-box;
+                  "
+                >
+                  <li
+                    style="
+                      display: inline-block;
+                      font-size: 20px;
+                      list-style: outside none none;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <a
+                      href="https://github.com/"
+                      target="_blank"
+                      style="
+                        display: block;
+                        color: rgb(116, 128, 138);
+                        padding: 10px;
+                        text-decoration: none solid rgb(116, 128, 138);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><i
+                        aria-hidden="true"
+                        style="
+                          box-sizing: border-box;
+                          display: inline-block;
+                          font-style: normal;
+                          font-variant: normal;
+                          font-kerning: auto;
+                          font-optical-sizing: auto;
+                          font-feature-settings: normal;
+                          font-variation-settings: normal;
+                          font-weight: 400;
+                          font-stretch: 100%;
+                          line-height: 20px;
+                          font-family: FontAwesome;
+                          font-size: 20px;
+                          text-rendering: auto;
+                          -webkit-font-smoothing: antialiased;
+                        "
+                      ></i
+                    ></a>
+                  </li>
+                  <li
+                    style="
+                      display: inline-block;
+                      font-size: 20px;
+                      list-style: outside none none;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <a
+                      href="https://stackoverflow.com/"
+                      target="_blank"
+                      style="
+                        display: block;
+                        color: rgb(116, 128, 138);
+                        padding: 10px;
+                        text-decoration: none solid rgb(116, 128, 138);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><i
+                        aria-hidden="true"
+                        style="
+                          box-sizing: border-box;
+                          display: inline-block;
+                          font-style: normal;
+                          font-variant: normal;
+                          font-kerning: auto;
+                          font-optical-sizing: auto;
+                          font-feature-settings: normal;
+                          font-variation-settings: normal;
+                          font-weight: 400;
+                          font-stretch: 100%;
+                          line-height: 20px;
+                          font-family: FontAwesome;
+                          font-size: 20px;
+                          text-rendering: auto;
+                          -webkit-font-smoothing: antialiased;
+                        "
+                      ></i
+                    ></a>
+                  </li>
+                  <li
+                    style="
+                      display: inline-block;
+                      font-size: 20px;
+                      list-style: outside none none;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      style="
+                        display: block;
+                        color: rgb(116, 128, 138);
+                        padding: 10px;
+                        text-decoration: none solid rgb(116, 128, 138);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><i
+                        aria-hidden="true"
+                        style="
+                          box-sizing: border-box;
+                          display: inline-block;
+                          font-style: normal;
+                          font-variant: normal;
+                          font-kerning: auto;
+                          font-optical-sizing: auto;
+                          font-feature-settings: normal;
+                          font-variation-settings: normal;
+                          font-weight: 400;
+                          font-stretch: 100%;
+                          line-height: 20px;
+                          font-family: FontAwesome;
+                          font-size: 20px;
+                          text-rendering: auto;
+                          -webkit-font-smoothing: antialiased;
+                        "
+                      ></i
+                    ></a>
+                  </li>
+                  <li
+                    style="
+                      display: inline-block;
+                      font-size: 20px;
+                      list-style: outside none none;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      style="
+                        display: block;
+                        color: rgb(116, 128, 138);
+                        padding: 10px;
+                        text-decoration: none solid rgb(116, 128, 138);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><i
+                        aria-hidden="true"
+                        style="
+                          box-sizing: border-box;
+                          display: inline-block;
+                          font-style: normal;
+                          font-variant: normal;
+                          font-kerning: auto;
+                          font-optical-sizing: auto;
+                          font-feature-settings: normal;
+                          font-variation-settings: normal;
+                          font-weight: 400;
+                          font-stretch: 100%;
+                          line-height: 20px;
+                          font-family: FontAwesome;
+                          font-size: 20px;
+                          text-rendering: auto;
+                          -webkit-font-smoothing: antialiased;
+                        "
+                      ></i
+                    ></a>
+                  </li>
+                  <li
+                    style="
+                      display: inline-block;
+                      font-size: 20px;
+                      list-style: outside none none;
+                      box-sizing: border-box;
+                    "
+                  >
+                    <a
+                      href="https://plus.google.com/"
+                      target="_blank"
+                      style="
+                        display: block;
+                        color: rgb(116, 128, 138);
+                        padding: 10px;
+                        text-decoration: none solid rgb(116, 128, 138);
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0);
+                      "
+                      ><i
+                        aria-hidden="true"
+                        style="
+                          box-sizing: border-box;
+                          display: inline-block;
+                          font-style: normal;
+                          font-variant: normal;
+                          font-kerning: auto;
+                          font-optical-sizing: auto;
+                          font-feature-settings: normal;
+                          font-variation-settings: normal;
+                          font-weight: 400;
+                          font-stretch: 100%;
+                          line-height: 20px;
+                          font-family: FontAwesome;
+                          font-size: 20px;
+                          text-rendering: auto;
+                          -webkit-font-smoothing: antialiased;
+                        "
+                      ></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End footer -->
+      </body>
+    </html>
+  </body>
+</html>
