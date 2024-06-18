@@ -175,17 +175,3 @@ const port = 3000;
 server.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
-
-function populateDropdown(provinsiList) {
-  const dropdown = document.getElementById("provDropdown");
-  dropdown.innerHTML - '<option value="">Pilih Provinsi</option>';
-  provinsiList.forEach((prov) => {
-    const option = document.createElement("option");
-    option.value = prov.id;
-    option.text = prov.text;
-    dropdown.add(option);
-  });
-}
-document.addEventListener("DOMContentLoaded", () => {
-  populateDropdown(provinsi);
-});
