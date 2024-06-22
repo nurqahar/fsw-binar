@@ -8,4 +8,4 @@ class Message {
   }
 }
 
-module.exports = new Message();
+export default Message;

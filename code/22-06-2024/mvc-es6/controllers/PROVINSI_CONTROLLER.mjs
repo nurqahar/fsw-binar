@@ -1,11 +1,13 @@
-const ProvinsiModel = require("../models/PROVINSI_MODEL.mjs");
-const fs = require("fs");
-const path = require("path");
-const message = require("../message.mjs");
+import ProvinsiModel from "../models/PROVINSI_MODEL.mjs";
+const provinsiModel = new ProvinsiModel();
+// import fs from "fs";
+// import path from "path";
+import Message from "../message.mjs";
+const message = new Message();
 
 class ProvinsiController {
   getProvinsi(req, res) {
-    const provinsi = ProvinsiModel.getAllProvinsi();
+    const provinsi = provinsiModel.getAllProvinsi();
     res.render("PROVINSI_VIEW", { provinsi }); //EJS
     // fs.readFile(
     //   path.join(__dirname, "../views/PROVINSI_VIEWS.html"),
@@ -25,7 +27,7 @@ class ProvinsiController {
   }
 
   addProvinsi(req, res) {
-    ProvinsiModel.addProvinsi(req.body["provinsi"]);
+    provinsiModel.addProvinsi(req.body["provinsi"]);
     res.redirect("/provinsi");
   }
 }
