@@ -11,7 +11,7 @@ class Provinsi_Controller {
       (err, data) => {
         if (err) {
           res.writeHead(500, { "Content-Type": "text/plain" });
-          res.end("Error loading view-provinsiController.js");
+          res.end("Error loading view");
           return;
         }
         const rendered = data.replace(

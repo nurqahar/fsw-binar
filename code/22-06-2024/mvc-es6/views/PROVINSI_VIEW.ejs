@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PROVINSI</title>
+</head>
+
+<body>
+    <h1>Provinsi</h1>
+    <ul>
+        <% provinsi.forEach(function (data){ %>
+            <li>
+                <%=data%>
+            </li>
+            <% }) %>
+    </ul>
+    <form action="/provinsi" method="post">
+        <input type="text" name="provinsi" id="provinsi" placeholder="nama provinsi">
+        <button type="submit">Add Provinsi</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+require url
+require http
+require fs - file system
+event driven: req.on(data)
+callback()
+npm i express --save = what is --save
+npm i --save-dev nodemon = what is --save-dev
+
+LEARNING-22/06/2024:
+problem: karakter koma masih tercetak di HTML
+
+ES6 ekstensi = .mjs
