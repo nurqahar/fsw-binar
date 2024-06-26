@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER</title>
+</head>
+
+<body>
+    <h1>DAFTAR ORDER</h1>
+    <a href="http://localhost:3000">HALAMAN AWAL</a>
+    <ul>
+        <% order.forEach(function (data, i){ %>
+            <li>
+                <%=`ORDER ID ${i+1}: ${data}` %>
+            </li>
+
+            <% }) %>
+    </ul>
+
+
+</body>
+
+</html>

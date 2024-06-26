@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <title>MENU</title>
+        </head>
+
+<body>
+    <h1>PILIH MENU</h1>
+    <a href="http://localhost:3000">HALAMAN AWAL</a>
+    <form action="/order" method="post">
+        <% menu.forEach(function (data, i){ %>
+            <input type="checkbox" name=<%=`menu-${i}` %> id=<%=`menu-${i}` %> value=<%=data%>>
+                    <label for=<%=`menu-${i}` %>>
+                        <%=data%>
+                    </label>
+                    <% }) %>
+                        <button type="submit">PLACE ORDER</button>
+    </form>
+</body>
+
+</html>
+</title>
+</head>

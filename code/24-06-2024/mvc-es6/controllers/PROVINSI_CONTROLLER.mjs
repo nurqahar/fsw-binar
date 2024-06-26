@@ -27,6 +27,7 @@ class ProvinsiController {
   }
 
   addProvinsi(req, res) {
+    console.log(req.body);
     provinsiModel.addProvinsi(req.body["provinsi"]);
     res.redirect("/provinsi");
   }
